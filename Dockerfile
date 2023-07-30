@@ -1,6 +1,6 @@
 FROM tensorflow/tensorflow:latest-gpu
 
-WORKDIR /docker-playground
+WORKDIR /tensorflowrealm
 
 COPY requirements.txt requirements.txt
 

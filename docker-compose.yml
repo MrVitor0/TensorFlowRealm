@@ -1,11 +1,11 @@
-version: '0.1.0'
+version: '1.0'
 services: 
-  jupyter-lab:
+  tensorflowrealm:
     build: .
     ports:
       - "8888:8888"
     volumes:
-      - ./docker-playground:/docker-playground
+      - ./tensorflowrealm:/tensorflowrealm
     deploy:
       resources:
         reservations:
